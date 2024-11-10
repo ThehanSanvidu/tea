@@ -20,11 +20,12 @@ header {
 .tea-icon {
     width: 50px;
     height: 50px;
-    background-image: url('https://via.placeholder.com/50'); /* Replace with tea icon URL */
+    background-image: url('tea-icon.jpeg'); /* Update path to tea icon */
     background-size: cover;
     animation: spin 4s linear infinite;
     margin: 10px auto;
 }
+
 
 @keyframes spin {
     from { transform: rotate(0deg); }
@@ -37,7 +38,7 @@ body::before {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://via.placeholder.com/20'); /* Replace with tea cup image URL */
+    background-image: url('tea-icon.jpeg'); /* Replace with tea cup image URL */
     background-repeat: repeat;
     background-size: 50px;
     animation: moveCups 15s linear infinite;
